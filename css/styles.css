@@ -284,11 +284,11 @@ ol {
 
 
 .list {
-    list-style: none;
+    list-style: none;    
 }
 
 .link {
-    list-style: none;
+    text-decoration: none;
   }
 
 .body {
