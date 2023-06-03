@@ -857,17 +857,17 @@ ol {
 
     transform: scale(1);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
   
-  .backdrop.is-hidden {
+.backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
 
     transform: scale(1.15);
-  }
+}
   
-  .modal {
+.modal {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -877,9 +877,9 @@ ol {
     background-color: var(--hero-color-font);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
-  }
+}
   
-  .modal-close-btn {
+.modal-close-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -893,5 +893,22 @@ border-radius: 4px;
     background-color: transparent;
     padding: 0;
     cursor: pointer;
-  }
-  /* ==== Кінець модального вікна ==== */
+}
+/* ==== Кінець модального вікна ==== */
+
+
+
+/* ==== Початок форми в модальному вікні ==== */
+.contact-form-title {
+    margin: 40px 39px 12px 41px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-color-font);
+}
+
+/* ==== Кінець форми в модальному вікні ==== */
