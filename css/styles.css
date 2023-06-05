@@ -842,7 +842,7 @@ ol {
 }
 
 .margin-footer {
-    margin-left: 70px;
+    margin-left: auto;
 }
 
 
@@ -877,7 +877,7 @@ ol {
     height: 580px;
     background-color: var(--hero-color-font);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
+    border-radius: 4px;
 }
   
 .modal-close-btn {
@@ -948,6 +948,8 @@ border-radius: 4px;
     letter-spacing: 0.06em;
 
     color: var(--hero-color-font);
+
+    border: none;
 
     background: var(--second-color-font);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
