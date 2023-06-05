@@ -965,8 +965,12 @@ border-radius: 4px;
 
 
 /* ==== Початок форми в модальному вікні ==== */
+.contact-form{
+    padding: 40px;
+}
+
 .contact-form-title {
-    margin: 40px 39px 12px 41px;
+    margin-bottom: 12px;
 
     font-weight: 700;
     font-size: 20px;
@@ -979,12 +983,12 @@ border-radius: 4px;
 
 .contact-form-field {
     display: block;
-    margin: 0 39px 10px 41px;
+    margin-bottom: 10px;
 }
 
 .contact-form-comment {
     display: block;
-    margin: 0 39px 20px 41px;
+    margin-bottom: 20px;
 }
 
 .contact-form-names {
@@ -1055,7 +1059,7 @@ border-radius: 4px;
 .contact-form-checkbox-wrapper {
     display: flex;
     align-items: center;
-    margin: 0 51px 0 54px;
+    margin-left: 12px;
 
     font-weight: 400;
     font-size: 14px;
