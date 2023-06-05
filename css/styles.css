@@ -1077,6 +1077,8 @@ ol {
 }
 
 .contact-form-checkbox-label {
+    display: flex;
+    align-items: center;
     margin-left: 9px;
 }
 
@@ -1089,10 +1091,37 @@ ol {
     stroke: var(--hero-color-font);
     background-color: var(--second-color-font);
     border-radius: 2px;
+    margin-right: 7px;
 }
 .contact-form-checkbox-empty {
     fill: var(--primary-color-font);
+    margin-right: 7px;
+    border-radius: 2px;
 }
+
+
+/* Ховер та фокус на чекбоксі */
+.contact-form-checkbox-label:hover > .contact-form-checkbox:not(:disabled):not(:checked) ~ .contact-form-checkbox-empty {
+    box-shadow: 0 0 0 2px var(--color-logo);
+    cursor: pointer;
+}
+.contact-form-checkbox-label:focus > .contact-form-checkbox:not(:disabled):not(:checked) ~ .contact-form-checkbox-empty {
+    box-shadow: 0 0 0 2px var(--color-logo);
+    cursor: pointer;
+}
+
+.contact-form-checkbox-label:hover > .contact-form-checkbox:checked ~ .contact-form-checkbox-check {
+    box-shadow: 0 0 0 2px var(--color-logo);
+    cursor: pointer;
+}
+.contact-form-checkbox-label:focus > .contact-form-checkbox:checked ~ .contact-form-checkbox-check {
+    box-shadow: 0 0 0 2px var(--color-logo);
+    cursor: pointer;
+}
+/*  */
+
+
+
 
 .contact-form-checkbox:checked ~ .contact-form-checkbox-empty {
     position: absolute;
