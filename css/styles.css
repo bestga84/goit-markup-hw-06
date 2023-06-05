@@ -1073,6 +1073,7 @@ ol {
 }
 .contact-form-checkbox-link {
     color: var(--second-color-font);
+    text-decoration: underline;
 }
 
 .contact-form-checkbox-label {
